@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-bg-color: rgb(89, 3, 122);
+}
+
+footer{
+    height: 6vh;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+header{
+    background-color: var(--main-bg-color);
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: rgb(229, 175, 250);
+    font-weight: bolder;
+}
+nav ul{
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+align-items: center;
+}
+nav{
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 23px;
+}
+.search{
+    display: flex;
+align-items: center;
+}
+.search input{
+    width: 30vw;
+height: 23px;
+border-radius: 8px;
+margin: 0 12px 0 70px;
+padding: 0 12px;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid wheat;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(217, 115, 238);
+}
+
+.container{
+     min-height: calc(100vh - 55px - 12vh);            /*calc ek fn h jisse hm container ki height set kr re 
+                              h ki 100vh me se agr 55px nav h or 12vh footer h to iski height ko set kr de */
+}
+.slider{
+    width: 90vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: 35px auto;
+}
+
+.my-2{
+    margin: 20px 0;
+}
+.my-1{
+    margin: 4px 0;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card-item:hover{
+cursor: pointer;
+    background-color: rgb(164, 131, 201);
+}
+.cards{
+    display: flex;
+  overflow: hidden ;
+}
